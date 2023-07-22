@@ -141,12 +141,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
 
-//        for(int i=0;i<dataToCalculate.length();i++){
-//            if(Character.isDigit(dataToCalculate.charAt(i))){
-//                digitCounter++;
-//            }
-//            if(Character.isSign(dataToCalculate.charAt(i)))
-//        }
+//        
         if(digitCounter>10 ){
             Snackbar mySnackbar = Snackbar.make(view, "Maximum Digits", 800);
             mySnackbar.show();
