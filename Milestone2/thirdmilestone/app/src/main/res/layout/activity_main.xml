@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="88dp"
+            android:gravity="center"
+            android:text="Games"
+            android:textColor="@color/teal_700"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="347dp"
+            android:layout_height="177dp"
+            android:layout_marginEnd="30dp"
+
+            android:gravity="center"
+            android:text="Games have been an integral part of human culture and entertainment for centuries. They provide a platform for fun, excitement, and social interaction, captivating people of all ages and backgrounds. Whether played on a board, with cards, on a computer screen, or in outdoor spaces, games offer a diverse range of experiences and benefits.  One of the primary functions of games is to entertain and engage players. They serve as a means of escapism, allowing individuals to immerse themselves in different worlds, stories, or challenges." />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cricket"
+            android:textAllCaps="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </LinearLayout>
+
+</RelativeLayout>

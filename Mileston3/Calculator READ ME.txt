@@ -1,0 +1,14 @@
+READ ME (BASIC GUI CALCULATOR)
+
+
+The Java language was used to create this simple calculator tool with a graphical user interface. (GUI). 
+The program is made to carry out fundamental mathematical processes like addition, subtraction, multiplication, and division. 
+
+Features basic processes in mathematics (addition, subtraction, multiplication, and division) virtual user experience that is simple and easy to use. 
+
+How to Apply Run the application: 
+1) You'll see the calculator application on your device. 
+2) Enter the values you want to operate on mathematically. 
+3) To carry out the required action, select the relevant arithmetic operation option. 
+4) The "Result" column will show the outcome. 
+5) Clicking the "All Clear" option will clear the entry box.
